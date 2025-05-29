@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VHS Text Generator</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/VHSTextGenerator.js" defer></script>
+</head>
+<body>
+  <input type="text" id="input" oninput="changeText()" value="ANALOG HORROR AT 476MHz — WE BEGIN OUR BROADCAST DAY">
+  <div id="screen">
+    <div class="VHSText red"></div>
+    <div class="VHSText green"></div>
+    <div class="VHSText blue"></div>
+    <div class="scanlines"></div>
+  </div>
+</body>
+</html>
